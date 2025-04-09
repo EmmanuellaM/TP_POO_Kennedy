@@ -1,0 +1,29 @@
+package com.tpobjetperdu;
+
+import com.tpobjetperdu.views.*;
+
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+import java.io.IOException;
+
+
+/**
+ * JavaFX App
+ */
+public class App extends Application {
+
+
+    @Override
+    public void start(Stage primaryStage) throws IOException {
+        new ObjetPasVole(primaryStage);
+        
+    }
+
+    public static void main(String[] args) {
+  
+        launch();
+    }
+
+}
