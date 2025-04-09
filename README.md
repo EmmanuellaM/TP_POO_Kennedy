@@ -1,0 +1,6 @@
+Je suis MBIAKE EMMANUELLA ROSE, étudiante en troisième année de Génie Informatique. Mon matricule est le 24P756. 
+Il s’agit pour le TP de mettre sur pied une application permettant de vérifier si un objet a été volé, et dans ce cas pouvoir contacter le propriétaire au cas où celui ci a signalé la perte dans l’application, et signaler que l’appareil n’a pas été volé sinon. 
+Pour ce faire, j'ai créé une première fenêtre "Primary view" où il y'a deux boutons: le premier pour enrégistrer un objet volé et le deuxième pour vérifier si un ojet a été volé. 
+Si un utilisateur veut enrégistrer un objet qui lui a été volé, il y'a une première fenêtre "Sign" qui lui donne la possibilité soit de s'enrégistrer d'abord dans l'application si c'est déjà le cas, soit de remplir ses informations et donc d'accéder à la fenêtre qui permet d'enrégistrer un objet volé si il est déjà ennrégistré dans l'application.
+Si un utilisateur veut vérifier si un objet a été volé, il entre quelques données sur l'objet et si il est reconnu comme ayant été enrégistré, un message est renvoyé avec le contact et l'adresse mail du propriétaire. Et si l'objet n'a pas été volé, un message est renvoyé.
+Le langage utilisé est le java, et pour l'interface graphique "javafx". Le code a une structure "mvc"; model, view, controller. 
